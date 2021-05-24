@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //This is global declared what 1REM is
+    font-size: 62.5%;
+}
