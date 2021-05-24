@@ -1,2 +1,3 @@
-# Advanced Landing Page Concepts
-Advanced Landing Page Concepts
+# Advanced Landing Page Mockup
+
+Advanced Landing Page Mockup
