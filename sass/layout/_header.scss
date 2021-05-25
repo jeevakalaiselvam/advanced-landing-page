@@ -9,6 +9,7 @@
         url(../images/hero.jpg);
     background-size: cover;
     background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
     position: relative;
 
@@ -29,5 +30,9 @@
         transform: translate(-50%, -50%);
         margin: 0 auto;
         text-align: center;
+        position: absolute;
+        text-align: right;
+        top: 12rem;
+        right: 2rem;
     }
 }
