@@ -67,9 +67,9 @@ body {
 
 .heading-secondary {
   font-size: 3.5rem;
-  display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
+  display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -94,7 +94,7 @@ body {
   text-align: center; }
 
 .u-margin-bottom-small {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 2rem; }
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
@@ -102,10 +102,57 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.u-margin-bottom-large {
+  margin-bottom: 16rem; }
+
+.u-margin-top-small {
+  margin-top: 2rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem; }
+
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.u-margin-top-large {
+  margin-top: 16rem; }
+
+.u-margin-neg-bottom-small {
+  margin-bottom: -2rem; }
+
+.u-margin-neg-bottom-medium {
+  margin-bottom: -4rem; }
+
+.u-margin-neg-bottom-big {
+  margin-bottom: -8rem; }
+
+.u-margin-neg-bottom-large {
+  margin-bottom: -16rem; }
+
+.u-margin-neg-top-small {
+  margin-top: -2rem; }
+
+.u-margin-neg-top-medium {
+  margin-top: -4rem; }
+
+.u-margin-neg-top-big {
+  margin-top: -8rem; }
+
+.u-margin-neg-top-large {
+  margin-top: -16rem; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -25vh; }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../images/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg); }
+  .section-features > * {
+    transform: skewY(7deg); }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -197,6 +244,25 @@ body {
       z-index: 20; }
     .composition__photo:hover .composition__photo__photo:not(:hover) {
       transform: scale(0.9); }
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s; }
+  .feature-box__icon {
+    font-size: 6rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent; }
+  .feature-box:hover {
+    transform: translateY(-1.5rem);
+    cursor: pointer; }
 
 .header {
   height: 95vh;
