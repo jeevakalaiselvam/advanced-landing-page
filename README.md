@@ -2,7 +2,9 @@
 
 # Cool New CSS Features
 
-## Background clip
+## Header
+
+    Background clip
 
     background-image: linear-gradient(
             to right bottom,
