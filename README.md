@@ -1,4 +1,4 @@
-# Advanced Landing Page Mockup
+# Advanced Landing Page Natours
 
 ## Common Concepts
 
@@ -120,3 +120,5 @@
                     $color-primary-dark
                 ),url(../images/nat-6.jpg);
     background-blend-mode: screen;
+
+### SASS Mixins for Media Queries
