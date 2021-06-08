@@ -133,7 +133,7 @@
         font-size: 50%;
     }
 
-### Mixins using Breakpoints
+### Mixins Reponsive Managers
 
     /*
     Breakpoint choices
@@ -141,11 +141,34 @@
     - tab-port
     - tab-lab
     - big-desktop
+    1 em = 16px - ems work best with media queries
     */
 
     @mixin respond($breakpoint) {
         @if $breakpoint == phone {
-            @media (max-width: 600px) {
+            @media (max-width: 37.5em) {
+                //600px
+                @content;
+            }
+        }
+
+        @if $breakpoint == tab-port {
+            @media (max-width: 56.25em) {
+                //900px
+                @content;
+            }
+        }
+
+        @if $breakpoint == tab-land {
+            @media (max-width: 75em) {
+                //1200px
+                @content;
+            }
+        }
+
+        @if $breakpoint == big-desktop {
+            @media (min-width: 112.5em) {
+                //1800px
                 @content;
             }
         }
