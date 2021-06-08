@@ -96,3 +96,27 @@
             }
         }
     }
+
+### Gradient Image Clip
+
+    &__icon {
+        font-size: 6rem;
+        display: inline-block;
+        background-image: linear-gradient(
+            to right,
+            $color_primary-light,
+            $color-primary-dark
+        );
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+### Gradient Backgrounds and Blend modes
+
+    background-image: linear-gradient(
+                    to right bottom,
+                    $color-primary-light,
+                    $color-primary-dark
+                ),url(../images/nat-6.jpg);
+    background-blend-mode: screen;
