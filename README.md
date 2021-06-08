@@ -1,5 +1,7 @@
 # Advanced Landing Page Mockup
 
+## Common Concepts
+
 ### Background clip
 
     background-image: linear-gradient(
