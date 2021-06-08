@@ -33,21 +33,22 @@
         clear: both;
     }
 
-    @incluse clear-fix
+    @include clear-fix
 
 ### Object Fit full width Video
 
     .bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.15;
-
-    &__content {
-        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
         height: 100%;
-        object-fit: cover;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.15;
+
+        &__content {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+    }
     }
