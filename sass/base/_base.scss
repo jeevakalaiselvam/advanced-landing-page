@@ -9,4 +9,8 @@
 html {
     //This is global declared what 1REM is
     font-size: 62.5%;
+
+    @include respond-phone {
+        font-size: 50%;
+    }
 }

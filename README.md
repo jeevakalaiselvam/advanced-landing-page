@@ -122,3 +122,31 @@
     background-blend-mode: screen;
 
 ### SASS Mixins for Media Queries
+
+    @mixin respond-phone {
+        @media (max-width: 600px) {
+            @content;
+        }
+    }
+
+    @include respond-phone {
+        font-size: 50%;
+    }
+
+### Mixins using Breakpoints
+
+    /*
+    Breakpoint choices
+    - phone
+    - tab-port
+    - tab-lab
+    - big-desktop
+    */
+
+    @mixin respond($breakpoint) {
+        @if $breakpoint == phone {
+            @media (max-width: 600px) {
+                @content;
+            }
+        }
+    }
