@@ -1,10 +1,8 @@
 # Advanced Landing Page Mockup
 
-# Cool New CSS Features
-
 ## Header
 
-    Background clip
+### Background clip
 
     background-image: linear-gradient(
             to right bottom,
