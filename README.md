@@ -133,7 +133,7 @@
         font-size: 50%;
     }
 
-### Mixins Reponsive Managers
+### Breakpoint Managers using Mixins
 
     /*
     Breakpoint choices
