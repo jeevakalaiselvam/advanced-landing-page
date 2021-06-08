@@ -1,26 +1,28 @@
 // All Abstract declarations
-@import "./abstracts/functions";
-@import "./abstracts/mixins";
-@import "./abstracts/variables";
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
 
 // All Base declarations
-@import "./base/base";
-@import "./base/animations";
-@import "./base/typography";
-@import "./base/utilities";
+@import './base/base';
+@import './base/animations';
+@import './base/typography';
+@import './base/utilities';
 
 //All Pages declarations
-@import "./pages/home";
+@import './pages/home';
 
 //All Component declarations
-@import "./components/button";
-@import "./components/composition";
-@import "./components/feature-box";
-@import "./components/card";
-@import "./components/story";
-@import "./components/bg-video";
-@import "./components/form";
+@import './components/button';
+@import './components/composition';
+@import './components/feature-box';
+@import './components/card';
+@import './components/story';
+@import './components/bg-video';
+@import './components/form';
 
 //All Layoout declarations
-@import "./layout/header";
-@import "./layout/grid";
+@import './layout/navigation';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/grid';
